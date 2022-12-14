@@ -5,7 +5,7 @@
              x:Class="livechartssample.MainPage">
 
     <StackLayout>
-        <StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Horizontal"  Margin="0,50,0,0">
             <Button Text="1" Pressed="Button_Pressed"/>
             <Button Text="2" Pressed="Button_Pressed_1"/>
 
