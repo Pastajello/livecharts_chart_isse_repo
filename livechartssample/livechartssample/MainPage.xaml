@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.Xamarin.Forms;assembly=LiveChartsCore.SkiaSharpView.XamarinForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="livechartssample.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="1" Pressed="Button_Pressed"/>
+            <Button Text="2" Pressed="Button_Pressed_1"/>
+
+        </StackLayout>
+        <lvc:CartesianChart x:Name="chart"
+                            HeightRequest="260"
+                            InputTransparent="True"
+                            LegendPosition="Top"
+                            TooltipPosition="Hidden" />
+
+    </StackLayout>
+    
+
+</ContentPage>
+
